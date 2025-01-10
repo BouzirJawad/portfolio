@@ -4,6 +4,10 @@
     padding-bottom: 10px;
 }
 
+#myHeader{
+    background: none;
+}
+
 #backToTop {
     z-index: 1000;
 }
@@ -32,4 +36,15 @@ Header{
 #getInTouch{
     margin: 0;
 }
-  
+
+.project{
+    width: 18rem;
+    background-color: rgb(220, 220, 220);
+}
+
+.fonts{
+    font-size: clamp(18px, 4vw, 36px); /* Responsive font size */
+    line-height: 1.2; /* Maintain spacing between lines */
+    margin: 0; /* Remove default margins */
+}
+
