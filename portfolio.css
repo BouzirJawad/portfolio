@@ -1,11 +1,35 @@
+#navbar{
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
 #backToTop {
     z-index: 1000;
 }
 
-#myHeader{
+Header{
     line-height: 3;
 }
 
 #bbtn:hover{
     transform: scale(1.05);
 }
+
+.dropdown-menu {
+    left: auto !important; /* Resets the default left alignment */
+    right: 0 ;   /* Ensures it aligns to the right within the viewport */
+}
+
+.home{
+    background-color: rgb(220, 220, 220);
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+#getInTouch{
+    margin: 0;
+}
+  

@@ -11,53 +11,75 @@
 </head>
 
 <body>
-  <div class="container" id="myHeader">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+  <header class="container" id="myHeader">
+    <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary">
+      <div class="container" id="navbar">
+        <a class="navbar-brand" href="#"><span style="color: rgb(67, 169, 197);">JUUBUU</span>'s Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Media
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">GitHub</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Contact me</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+          
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-  </div>
+  </header>
   
+  <main>
+    <section class="container-fluid">
+      <div class="container-">
+        <div class="row justify-content-center" >
+          <div class="col-md-8">
+            <div class="row home justify-content-evenly">
+              <div class="col-sm-4 mt-4">
+                <img src="/portfolio/images/95c.png" alt="" class="img-fluid ">
+              </div>
+              <div class="col-sm-5 mt-4 align-self-center">
+                <div class="">
+                  <h1>Hello,</h1>
+                  <h1>I'm Jawad Bouzir,</h1>
+                  <h3>full stack developer / freelancer</h3>
+                  <br><br>
+                  <button class="btn btn-primary mb-3" id="getInTouch">Get in touch</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-
+  </main>
 
   <button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 m-5" style="display: none;">
     <i class="bi bi-arrow-up"></i>
   </button>
+
+<footer>
+
+</footer>
 
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
