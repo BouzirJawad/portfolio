@@ -1,23 +1,32 @@
+
+/* page background */
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust transparency */
+    background-blend-mode: multiply;
+    background-image: url(/portfilio/images/bgbgbg.jpg)
+}
+
+.headers{
+    color: white;
+}
+
+/* nav bar or header */
 #navbar{
     background-color: rgb(220, 220, 220);
-    border-radius: 20px;
-    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 #myHeader{
-    background: none;
+    background-color: none;
 }
 
 #backToTop {
     z-index: 1000;
-}
-
-Header{
-    line-height: 3;
-}
-
-#bbtn:hover{
-    transform: scale(1.05);
 }
 
 .dropdown-menu {
@@ -25,6 +34,7 @@ Header{
     right: 0 ;   /* Ensures it aligns to the right within the viewport */
 }
 
+/* home cards */
 .home{
     background-color: rgb(220, 220, 220);
     margin-top: 30px;
@@ -37,12 +47,16 @@ Header{
     margin: 0;
 }
 
+
+
+/*  projects */
+
 .project{
     width: 18rem;
     background-color: rgb(220, 220, 220);
 }
 
-.fonts{
+.dscrp{
     font-size: clamp(18px, 4vw, 36px); /* Responsive font size */
     line-height: 1.2; /* Maintain spacing between lines */
     margin: 0; /* Remove default margins */
