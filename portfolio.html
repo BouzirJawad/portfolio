@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" href="images/95c.png" type="image/x-icon">
 
 </head>
 
@@ -14,7 +15,7 @@
   <header class="container-fluid" id="myHeader">
     <div class="navbar navbar-expand-lg">
       <div class="container py-4 fw-bold fs-5" id="navbar">
-        <a class="navbar-brand px-4" href="#"><span style="color: rgb(13, 92, 195);">JUUBUU</span>'s Portfolio</a>
+        <a class="navbar-brand px-2" href="#"><span class="typing1 typing"></span>'s Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,17 +28,17 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#" id="myProjectsButton">Projects</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Media
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">GitHub</a></li>
-                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://github.com/BouzirJawad">GitHub</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/jawad-bouzir-693923336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Contact me</a></li>
+                <li><a class="dropdown-item myContactMeButton" href="#">Contact me</a></li>
               </ul>
             </li>
           </ul>
@@ -48,6 +49,7 @@
   
   
   <main>
+
     <section class="container-fluid">
       <div class="container">
         <div class="row justify-content-center" >
@@ -57,12 +59,12 @@
                 <img src="/portfilio/images/95c.png" alt="" class="img-fluid mb-2">
               </div>
               <div class="col-sm-8 mt-4 align-self-center">
-                <div class="">
+                <div>
                   <h1 class="dscrp">Hello,</h1>
-                  <h1 class="dscrp">I'm Jawad Bouzir,</h1>
+                  <h1 class="dscrp">I'm <span class="typing2 typing"></span></h1>
                   <h1 class="dscrp">full stack developer / freelancer</h3>
                     <br>
-                  <button class="btn btn-primary mb-3" id="getInTouch">Get in touch</button>
+                  <a href="#" class="btn btn-primary mb-3 myContactMeButton">Get in touch</a>
                 </div>
               </div>
             </div>
@@ -71,63 +73,131 @@
       </div>
     </section>
 
-    <section class="container-fluid mt-5 mb-5">
+    <section class="container mt-5 mb-5" id="myProjectsSection">
       <div class="container">
-        <div class="row justify-content-center m-5">
-          <div class="col-lg-8 text-center">
+        <div class="row justify-content-center m-lg-5">
+          <div class="col-lg-10 text-center">
             <h1 class="m-3 headers">Projects</h1>
             <div class="row">
-              <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="col-md-6 mb-3 mb-lg-0">
                 <div class="card" style="width: 100%; height: 100%">
                   <div class="card-body d-flex flex-column">
                     <img src="/portfilio/images/moneyCounter.png" class="card-img-top" alt="money counter">
                     <div class="m-auto mt-auto"><h5 class="card-title m-3">Money counter website</h5></div>
                     <p class="card-text">a website application that counts total money of late people in my class.</p>
-                    <a href="#" class="btn btn-outline-primary ">view in Github</a>
+                    <a href="https://github.com/BouzirJawad/money-counter" class="btn btn-outline-primary" target="_blank">view in Github</a>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="col-md-6 mb-3 mb-lg-0">
                 <div class="card" style="width: 100%; height: 100%;">
-                  <div class="card-body d-flex d-flex flex-column">
+                  <div class="card-body d-flex flex-column">
                     <img src="/portfilio/images/blog.png" class="card-img-top" alt="blog">
                     <div class="m-auto mt-auto"><h5 class="card-title m-3">Blog website</h5></div>
                     <p class="card-text">static blog that has different subjects like travel, sports and gaming.</p>
-                    <a href="#" class="btn btn-outline-primary">view in Github</a>
+                    <a href="https://github.com/BouzirJawad/blog" class="btn btn-outline-primary" target="_blank">view in Github</a>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="btn btn-outline-light m-3 px-5">View more in Github</button>
+            <a class="btn btn-outline-light p-2 mt-3" href="https://github.com/BouzirJawad?tab=repositories" target="_blank">View more in Github</a>
           </div>
         </div>
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
+    <section class="container mt-5 mb-5" id="myContactMeSection">
+      <div class="container">
+        <div class="row justify-content-center" >
+          <div class="col-lg-8">
+              <div class="text-center">
+                <h1 class="m-3 headers">Contact me</h1>
+              </div>
+              <div class="row home justify-content-evenly">
+                <div class="col-sm-7 mt-4 align-self-center">
+                  <form class="needs-validation" novalidate>
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" placeholder="First name" id="firstName" aria-label="First name" required>
+                        <div class="invalid-feedback">
+                          Please enter your first name.
+                        </div>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" placeholder="Last name" id="lastName" aria-label="Last name" required>
+                        <div class="invalid-feedback">
+                          Please enter your last name.
+                        </div>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                      <div class="invalid-feedback">
+                        Please enter a valid email address.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" rows="3" placeholder="type your message here..." required></textarea>
+                      <div class="invalid-feedback">
+                        Please enter your message.
+                      </div>
+                    </div>
+                      <br>
+                    <div class="text-center">
+                      <button class="btn btn-primary mb-3" type="submit">Submit</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-12 col-sm-5 col-md-5 mt-4">
+                  <div class="container">
+                    <p class="text-center fs-4 typing3"> 
+                  
+                    </p>
+                  </div>
+                  <img src="/portfilio/images/95c.png" alt="" class="img-fluid mb-2">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
   </main>
 
-  <button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 m-5" style="display: none;">
-    <i class="bi bi-arrow-up"></i>
-  </button>
+  
+  <footer>
+    <div class="container text-center">
+      <div class="container fw-bold fs-5 mb-4" id="navbar">
+        <p class="pt-3">Created by<span style="color: rgb(13, 92, 195);"> JUUBUU </span>Created by © 2025</p>
+        <div class="d-flex justify-content-center gap-5 pb-3 fs-1">
+          <a class="text-reset icons" target="_blank" href="https://github.com/BouzirJawad"><i class="bi bi-github"></i></a>
+          <a class="text-reset icons" target="_blank" href="https://www.linkedin.com/in/jawad-bouzir-693923336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+          <a class="text-reset icons" href="#"><i class="bi bi-envelope-at-fill"></i></a>
+          <a class="text-reset icons" href="#"><i class="bi bi-facebook"></i></a>
+          <a class="text-reset icons" href="#"><i class="bi bi-whatsapp"></i></a>
+          <a class="text-reset icons" href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<footer>
-
-</footer>
-
+<button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 m-4" style="display: none;">
+  <i class="bi bi-arrow-up"></i>
+</button>
+  
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
 <script src="portfolio.js"></script>
 </body>
 </html>
