@@ -5,7 +5,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust transparency */
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency */
     background-blend-mode: multiply;
     background-image: url(/portfilio/images/bgbgbg.jpg)
 }
@@ -45,6 +45,7 @@ html{
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 20px;
+    transition:  0.5s ease;
 }
 
 /*  projects */
@@ -71,3 +72,38 @@ html{
 .typing{
     color: rgb(13, 92, 195);
 }
+
+.home:hover{
+    transform: scale(1.05);
+}
+
+.card{
+    transition:  0.5s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+#myButton{
+    transition:  0.5s ease;
+}
+#myButton:hover{
+    transform: scale(1.05);
+}
+
+.aboume:hover {
+    font-weight: bold;
+}
+
+.justify-content-between {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-around; /* Push content to top and bottom */
+    height: 100%; /* Ensure it uses full height */
+  }
+
+.typing3 {
+    min-height: 50px;
+}
+  
+  

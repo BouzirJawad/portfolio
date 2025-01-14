@@ -28,7 +28,16 @@
     $(".myContactMeButton").click(function () {
       $("html, body").animate(
         {
-          scrollTop: $("#myContactMeSection").offset().top,
+          scrollTop: $("#myContactMeSection").offset().top/1.05,
+        },
+        200
+      );
+    });
+
+    $("#myAboutMeButton").click(function () {
+      $("html, body").animate(
+        {
+          scrollTop: $("#myAboutMeSection").offset().top/1.02,
         },
         200
       );
@@ -50,6 +59,13 @@
 
     new Typed ('.typing3', {
       strings : ['you have any quetions?','go ahead contact me'],
+      typeSpeed : 60,
+      backSpeed : 30,
+      loop : true
+    });
+
+    new Typed ('.typing4', {
+      strings : ['Bouzir', 'Jawad', 'JUUBUU'],
       typeSpeed : 60,
       backSpeed : 30,
       loop : true
